@@ -5,4 +5,6 @@ TEST(RGBA,construct){
     RGBA pixel;
     EXPECT_EQ(pixel.r,255);
     EXPECT_EQ(pixel.g,255);
+    EXPECT_EQ(pixel.b,255);
+    EXPECT_EQ(pixel.a,255);
 }
